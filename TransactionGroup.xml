@@ -1,0 +1,64 @@
+<Project>
+   <Groups>
+      <GroupConfig typeKey="standard" name="BX43856A" path="">
+         <Property name="CONFIGURED_ITEMS" isComplex="true">
+            <ItemConfig name="ProcessStep" typeId="0">
+               <Property name="TARGET_DATA_TYPE">2</Property>
+               <Property name="SCALEDHIGH">10.0</Property>
+               <Property name="ALERTMESSAGEMODE">0</Property>
+               <Property name="RAWLOW">0.0</Property>
+               <Property name="ALERTMODE">0</Property>
+               <Property name="EXPRESSIONTYPE">0</Property>
+               <Property name="SCALEDLOW">0.0</Property>
+               <Property name="VALUE"></Property>
+               <Property name="OPCITEMPATH">ns=1;s=[DeviceName]Global.Process.Step</Property>
+               <Property name="ALERTNOTES"></Property>
+               <Property name="ALERTTIMESTAMPSOURCE">0</Property>
+               <Property name="ALERTDEADBAND">0.0</Property>
+               <Property name="CLAMPMODE">0</Property>
+               <Property name="OPCSERVER">Ignition OPC UA Server</Property>
+               <Property name="ALERTACKMODE">1</Property>
+               <Property name="SCALEMODE">0</Property>
+               <Property name="ALERTMESSAGE"></Property>
+               <Property name="EXPRESSION"></Property>
+               <Property name="ALERTMESSAGESUBJECT"></Property>
+               <Property name="RAWHIGH">100.0</Property>
+               <Property name="DEADBAND">1.0E-4</Property>
+               <Property name="TARGET_NAME">ProcessStep</Property>
+            </ItemConfig>
+            <ItemConfig name="ProcessPhase" typeId="0">
+               <Property name="TARGET_DATA_TYPE">2</Property>
+               <Property name="SCALEDHIGH">10.0</Property>
+               <Property name="ALERTMESSAGEMODE">0</Property>
+               <Property name="RAWLOW">0.0</Property>
+               <Property name="ALERTMODE">0</Property>
+               <Property name="EXPRESSIONTYPE">0</Property>
+               <Property name="SCALEDLOW">0.0</Property>
+               <Property name="VALUE"></Property>
+               <Property name="OPCITEMPATH">ns=1;s=[DeviceName]Global.Process.Phase_number</Property>
+               <Property name="ALERTNOTES"></Property>
+               <Property name="ALERTTIMESTAMPSOURCE">0</Property>
+               <Property name="ALERTDEADBAND">0.0</Property>
+               <Property name="CLAMPMODE">0</Property>
+               <Property name="OPCSERVER">Ignition OPC UA Server</Property>
+               <Property name="ALERTACKMODE">1</Property>
+               <Property name="SCALEMODE">0</Property>
+               <Property name="ALERTMESSAGE"></Property>
+               <Property name="EXPRESSION"></Property>
+               <Property name="ALERTMESSAGESUBJECT"></Property>
+               <Property name="RAWHIGH">100.0</Property>
+               <Property name="DEADBAND">1.0E-4</Property>
+               <Property name="TARGET_NAME">ProcessPhase</Property>
+            </ItemConfig>
+         </Property>
+         <Property name="TABLE_NAME">group_table</Property>
+         <Property name="ASYNC_TRIGGER_MODE">2</Property>
+         <Property name="ASYNC_TRIGGER_PATHS" isComplex="true">
+            <String>ProcessStep</String>
+            <String>ProcessPhase</String>
+         </Property>
+         <Property name="GROUP_EXECUTION_FLAGS">4</Property>
+         <Property name="DATA_SOURCE">Transaction1</Property>
+      </GroupConfig>
+   </Groups>
+</Project>
